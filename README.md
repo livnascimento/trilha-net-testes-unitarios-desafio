@@ -1,15 +1,31 @@
-# DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
+<img src="https://hermes.dio.me/tracks/6bb40420-5f89-4902-8df7-3399674d9d84.png" height=100>
 
-## Contexto
-Você está trabalhando em um sistema, e seus gestores relataram que frequentemente há problemas no software: bugs, funcionalidades que estavam funcionando de repente não funcionam mais, problemas de validações, entre outros. Os clientes já começam a duvidar da qualidade do código.
+# Teste unitários com xUnit
 
-Feito isso, você sugeriu a implementação de testes unitários: escrever testes cobrindo as partes mais críticas do sistema, com cenários positivos e negativos, a fim de ter uma rastreabilidade e controle do código, melhorando assim a qualidade desse sistema.
+O objetivo deste desafio é escrever testes cobrindo as partes mais críticas de um sistema fictício que apresenta falhas com frequência, com cenários positivos e negativos, a fim de ter uma rastreabilidade e controle do código, melhorando assim a qualidade desse sistema.
 
-Os gestores aceitaram a sua ideia, e com isso, você precisa implementar testes unitários no sistema.
+Este é um sistema de estacionamento desenvolvido como um desafio prático no Bootcamp Decola Tech 2024 da [DIO](https://www.dio.me/) em parceria com a Avanade.
+
+## Requisitos
+
+- [.NET](https://dotnet.microsoft.com/download) instalado na máquina
+
+## Como Executar
+
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/livnascimento/abstraindo-celular
+   ```
+
+2. Navegue até o diretório do projeto e execute:
+   ```bash
+   dotnet run
+   ```
+
+---
+
+**Texto do README.md disponibilizado na estrutura inicial:**
 
 ## Premissas
 O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
@@ -77,5 +93,6 @@ O projeto está estruturado da seguinte maneira:
 ![Métodos Swagger](Imagens/projeto.png)
 
 
-## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+---
+
+Muito obrigada por visitar o projeto e não esquece de dar uma olhada nos meus outros repositórios. 💜
