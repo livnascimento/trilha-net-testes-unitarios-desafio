@@ -39,7 +39,7 @@ public class ValidacoesListaTests
         // Act
         bool resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
         // Assert
-        Assert.True(resultado);
+        Assert.False(resultado);
     }
 
     [Fact]
