@@ -15,7 +15,7 @@ Este é um sistema de estacionamento desenvolvido como um desafio prático no Bo
 
 1. Clone o repositório
    ```bash
-   git clone https://github.com/livnascimento/abstraindo-celular
+   git clone https://github.com/livnascimento/trilha-net-testes-unitarios-desafio
    ```
 
 2. Navegue até o diretório do projeto e execute:
